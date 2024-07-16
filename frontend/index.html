@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학생생활기록부 개인별 평가내역 자동생성기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>학생생활기록부 개인별 평가내역 자동생성기</h1>
+    
+    <form id="evaluation-form">
+      <input type="text" id="student-name" placeholder="학생 이름" required>
+      <input type="text" id="personality" placeholder="성격" required>
+      <input type="text" id="hobbies" placeholder="취미" required>
+      <input type="text" id="specialties" placeholder="특기" required>
+      <input type="text" id="awards" placeholder="수상경력" required>
+      <input type="text" id="desired-path" placeholder="원하는 진로" required>
+      <button type="submit">평가내역 생성</button>
+    </form>
+    
+    <div id="evaluation-result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
